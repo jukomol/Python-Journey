@@ -6,7 +6,7 @@ import youtube_dl,os
 
 window=Tk()
 window.resizable(0,0)
-window.title("YT DOWNLOADER")
+window.title("YT Dl-JU Komol")
 window['background']='#8c8c8c'
 
 progressbar=ttk.Progressbar(window, orient=HORIZONTAL,length=200,mode='determinate')
