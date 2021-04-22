@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- bradcam_area_start -->
+<div class="bradcam_area breadcam_bg overlay">
+    <h3>MANAGEMENT SYSTEM</h3>
+</div>
+<!-- bradcam_area_end -->
+
+<section class="button-area">
+  <div class="container box_1170 border-top-generic">
+    <div class="button-group-area">
+      <a href="{% url 'user_management' %}" class="genric-btn primary e-large">USER MANAGEMENT</a>
+      <a href="{% url 'food_management' %}" class="genric-btn success e-large">FOOD MANAGEMENT</a>
+      <a href="{% url 'order_management' %}" class="genric-btn info e-large">ORDER MANAGEMENT</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
